@@ -1,0 +1,206 @@
+@media screen and (max-width: 991px){
+    .img-text p{
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .img-text h2{
+        font-size: 2rem;
+    }
+    
+    .img-text .btn{
+        margin-top: 2rem;
+    }
+    
+    .img-text .btn a{
+        font-size: 0.9rem;
+        padding: 0.7rem 1.4rem;
+    }    
+
+
+    .about-section{
+        padding: 6rem 7rem;
+    }
+        
+    .about-section .about h2{
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    
+    .about-section .about p{
+        font-size: 1rem;
+    }
+    
+    .about-section .card-details .card-one{
+        width: 48%;
+    }
+       
+    .about-section .card-details .card-one .name{
+        padding: 5px 15px 0 15px;
+    }
+    .about-section .card-details .card-one .name h4{
+        font-size: 1rem;
+    }
+
+    .contact{
+        padding: 6rem;
+    }
+      
+    .contact .form h2{
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+
+    .contact .form .submit input, .contact .form .submit textarea{
+        padding: 12px;
+        margin: 10px 0;
+    }
+   
+    .contact .form .submit input::placeholder{
+        font-size: 1rem;
+    }
+    
+    .contact .form .submit textarea::placeholder{
+        font-size: 1rem;
+    }
+    
+    .contact .form .submit a{
+        padding: 13px 0;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+    
+    .contact .map{
+        width: 45%;
+    }
+
+   .contact .map h2{
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width :768px){
+    .back-img{
+        background-position: center;
+    }
+      
+    .img-text p{
+        font-size: 1.1rem;
+        margin-bottom: 1.1rem;
+    }
+    
+    .img-text h2{
+        font-size: 2.1rem;
+    }
+    
+    .img-text .btn{
+        margin-top: 1rem;
+    }
+
+
+    .about-section{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-section .about{
+        width: 70%;
+        margin-bottom: 1.7rem;
+    }
+
+    .about-section .card-details{
+        width: 70%;
+    }
+
+
+    .contact{
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact .form {
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+    .contact .form h2{
+        font-size: 2.2rem;
+        padding-bottom: 7px;
+    }
+ 
+    .contact .map{
+        width: 60%;
+    }
+
+   .contact .map h2{
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+        margin-top: 3px;
+    }
+
+}
+
+@media screen and (max-width: 496px){
+    .img-text p{
+        margin-bottom: 0.8rem;
+    }
+    
+    .img-text h2{
+        font-size: 1.8rem;
+    }
+    
+    .img-text .btn{
+        margin-top: 1rem;
+    }
+
+    .about-section{
+        padding: 4rem 1rem;
+    }
+
+    .about-section .about h2{
+        font-size: 1.9rem;
+    }
+
+    .about-section .about{
+        width: 100%;
+    }
+
+    .about-section .card-details{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-section .card-details .card-one{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .contact{
+        padding: 4rem 1rem;
+    }
+    
+    .contact .form {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+     .contact .form h2{
+        font-size: 2.1rem;
+     }
+    .contact .map{
+        width: 100%;
+    }
+
+   .contact .map h2{
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+        margin-top: 3px;
+    }
+}
+

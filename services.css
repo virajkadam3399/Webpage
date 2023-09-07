@@ -1,0 +1,49 @@
+.navigation-wrap{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    background-color: #3a62b7;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 10px;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navigation-wrap .main-btn{
+    padding: 2px 23px;
+    margin-left: 1px;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
